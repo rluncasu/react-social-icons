@@ -1,5 +1,5 @@
 {
-  "name": "react-social-icons",
+  "name": "@rluncasu/react-social-icons",
   "version": "4.1.1",
   "description": "beautiful, easy svg social icons in react",
   "main": "./dist/react-social-icons.js",
@@ -10,7 +10,8 @@
     "prepublish": "NODE_ENV=production babel -d ./dist ./src",
     "start": "npm run examples:serve",
     "test": "mocha",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "postinstall": "npm run build"
   },
   "author": "jaketrent",
   "license": "MIT",
@@ -23,7 +24,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
+    "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0",
