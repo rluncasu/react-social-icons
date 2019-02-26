@@ -2,7 +2,7 @@
   "name": "@rluncasu/react-social-icons",
   "version": "4.1.1",
   "description": "beautiful, easy svg social icons in react",
-  "main": "./dist/react-social-icons.js",
+  "main": "./src/react-social-icons.js",
   "scripts": {
     "build": "babel -d ./dist ./src",
     "build:watch": "npm run build -- --watch",
