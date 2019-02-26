@@ -1,4 +1,5 @@
-# react-social-icons
+# social-icons-react
+## this is a fork of the original package. I've added a skype icon.
 
 A set of beautiful svg social icons.  Easily used in React.  No images or external css dependencies.  Svg paths provided by Squarespace.
 
